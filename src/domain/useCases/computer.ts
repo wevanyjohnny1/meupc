@@ -10,4 +10,5 @@ export type AddComponentParams = {
 
 export interface IComputer {
   addComponent (params: AddComponentParams): ComputerModel
+  removeComponent (id: string): ComputerModel
 }

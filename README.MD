@@ -74,3 +74,5 @@ aplicação das regras e a capacidade de lidar com desafios complexos.
 
 Considere utilizar bibliotecas como styled-components para estilização e react-router-dom
 para navegação entre as etapas da customização.
+
+typeof value === 'string' ? value : value.name
