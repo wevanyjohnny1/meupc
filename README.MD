@@ -52,7 +52,7 @@ NVIDIA GTX 1660, AMD Radeon RX 580 e NVIDIA RTX 3070
 ## RNs (Regras de negócio)
 
 - [ ] Se a placa mãe for Razor, os processadores disponíveis são i3 e i5
-- [ ] Se a placa mãe forAMD os processadores disponíveis são i7 e i9
+- [ ] Se a placa mãe for AMD os processadores disponíveis são i7 e i9
 - [ ] Se a placa de vídeo for NVIDIA GTX 1660, a placa mãe deve ser do tipo Razor
 - [ ] Se a placa mãe for intel, a memória deve ser no mínimo 16GB.
 - [ ] Se o processador for i9, o HD/SSD deve ser no mínimo 512GB.
