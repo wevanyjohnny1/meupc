@@ -1,0 +1,139 @@
+{
+  "motherBoards": [
+    {
+      "id": "razor",
+      "type": "",
+      "name": "Placa Mãe Razor",
+      "rules": [
+        {
+          "category": "cpu",
+          "mustHave": ["i3", "i5"]
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "type": "",
+      "name": "Placa Mãe Intel",
+      "rules": [
+        {
+          "category": "ram",
+          "mustHave": 16
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "",
+      "name": "Placa Mãe AMD",
+      "rules": [
+        {
+          "category": "cpu",
+          "mustHave": ["i7", "i9"]
+        }
+      ]
+    }
+  ],
+  "gpus": [
+    {
+      "id": "gtx1660",
+      "type": "",
+      "name": "NVIDIA GTX 1660",
+      "rules": [
+        {
+          "category": "mb",
+          "mustHave": ["razor"]
+        }
+      ]
+    },
+    {
+      "id": "rx580",
+      "type": "",
+      "name": "AMD Radeon RX 580",
+      "rules": []
+    },
+    {
+      "id": "rtx3070",
+      "type": "",
+      "name": "NVIDIA RTX 3070",
+      "rules": []
+    }
+  ],
+  "cpus": [
+    {
+      "id": "i3",
+      "type": "",
+      "name": "Intel i3",
+      "rules": []
+    },
+    {
+      "id": "i5",
+      "type": "",
+      "name": "Intel i3",
+      "rules": []
+    },
+    {
+      "id": "i7",
+      "type": "",
+      "name": "Intel i3",
+      "rules": []
+    },
+    {
+      "id": "i9",
+      "type": "",
+      "name": "Intel i3",
+      "rules": [
+        {
+          "category": "storage",
+          "mustHave": {"type": "any", "capacity": 512}
+        }
+      ]
+    }
+  ],
+  "rams": [
+    {
+      "id": "8gb",
+      "type": "",
+      "name": "Memória RAM 8GB",
+      "capacity": 8,
+      "rules": []
+    },
+    {
+      "id": "16gb",
+      "type": "",
+      "name": "Memória RAM 16GB",
+      "capacity": 16,
+      "rules": []
+    },
+    {
+      "id": "32gb",
+      "type": "",
+      "name": "Memória RAM 32GB",
+      "capacity": 32,
+      "rules": []
+    }
+  ],
+  "storage": [
+    {
+      "id": "ssd256",
+      "type": "ssd",
+      "name": "SSD 256GB",
+      "capacity": 256,
+      "rules": []
+    },
+    {
+      "id": "hdd1tb",
+      "type": "hdd",
+      "name": "HDD 1TB",
+      "capacity": 1000,
+      "rules": []
+    },
+    {
+      "id": "ssd512",
+      "type": "ssd",
+      "name": "SSD 512GB",
+      "capacity": 512,
+      "rules": []
+    }
+  ]
+}
