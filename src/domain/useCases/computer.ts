@@ -1,4 +1,4 @@
-import { ComputerModel } from 'domain/models/computer-model'
+import { ComputerModel } from '@/domain/models/computer-model'
 
 export type AddComponentParams = {
   id: string

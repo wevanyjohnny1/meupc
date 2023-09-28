@@ -1,7 +1,7 @@
-import { mockComputerComponent } from '../../../domain/test/mock-computer-component'
+import { mockComputerComponent } from '@/domain/test/mock-computer-component'
 import { CustomizeComputer } from './customize-computer'
-import { ComputerModel } from 'domain/models/computer-model'
-import { AddComponentParams } from 'domain/useCases/computer'
+import { ComputerModel } from '@/domain/models/computer-model'
+import { AddComponentParams } from '@/domain/useCases/computer'
 
 type SutTypes = {
   sut: CustomizeComputer

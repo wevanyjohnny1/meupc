@@ -1,5 +1,5 @@
-import { ComputerModel } from 'domain/models/computer-model'
-import { AddComponentParams } from 'domain/useCases/computer'
+import { ComputerModel } from '@/domain/models/computer-model'
+import { AddComponentParams } from '@/domain/useCases/computer'
 
 export class CustomizeComputer {
   constructor (

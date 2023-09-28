@@ -1,4 +1,4 @@
-import { AddComponentParams } from 'domain/useCases/computer'
+import { AddComponentParams } from '@/domain/useCases/computer'
 
 export const mockComputerComponent: AddComponentParams = {
   id: 'i5',
