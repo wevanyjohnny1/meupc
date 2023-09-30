@@ -4,12 +4,12 @@ import {
   Content,
   Details,
   DetailsSection,
-  ShowPCDetailsModal,
   Title,
   TitleSection
 } from './styles'
 import * as Dialog from '@radix-ui/react-dialog'
 import ComputerDetailsModal from '../ComputerDetailsModal'
+import Button from '../Button'
 
 const Computer: React.FC = () => {
   return (
@@ -28,7 +28,7 @@ const Computer: React.FC = () => {
       </Content>
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <ShowPCDetailsModal>VER DETALHES</ShowPCDetailsModal>
+          <Button title='VER DETALHES' />
         </Dialog.Trigger>
 
         <ComputerDetailsModal />
