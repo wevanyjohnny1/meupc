@@ -1,5 +1,6 @@
 export { default as Router } from './router'
 export { default as HomeHeader } from './HomeHeader'
 export { default as CustomizeHeader } from './CustomizeHeader'
+export { default as CustomizeComponents } from './CustomizeComponents'
 export { default as ComponentItem } from './ComponentItem'
 export { default as Button } from './Button'

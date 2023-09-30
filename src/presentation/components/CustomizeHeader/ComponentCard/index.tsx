@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Content, LottieBox, Title } from './styles'
 import { Cpu } from 'phosphor-react'
 import Lottie from 'lottie-react'
@@ -15,11 +15,9 @@ const style = {
 }
 
 const ComponentCard: React.FC<Props> = ({ title, done, ongoing }) => {
-  const [test, setTest] = useState(false)
-
   return (
     <Container done={done} ongoing={ongoing}>
-      {test && <LottieBox><Lottie animationData={checkAnimation} loop={false} style={style} /></LottieBox>}
+      {done && <LottieBox><Lottie animationData={checkAnimation} loop={false} style={style} /></LottieBox>}
 
       <Title>
         {title}

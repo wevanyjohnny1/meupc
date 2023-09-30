@@ -1,17 +1,17 @@
 import React from 'react'
-import { Container } from './styles'
-import { ComponentItem, CustomizeHeader } from '@/presentation/components'
+import { CustomizeComponents, CustomizeHeader } from '@/presentation/components'
+
+import { Container, Subtitle } from './styles'
 
 const Customize: React.FC = () => {
   return (
     <Container>
       <CustomizeHeader />
-      <ComponentItem />
-      <ComponentItem />
-      <ComponentItem />
-      <ComponentItem />
-      <ComponentItem />
-      <ComponentItem />
+
+      <Subtitle>Escolha seu componente</Subtitle>
+
+      <CustomizeComponents />
+
     </Container>
   )
 }
